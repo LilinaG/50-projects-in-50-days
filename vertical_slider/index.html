@@ -1,20 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    
-    <title>My project</title>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Biblioteca Font Awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Vertical Slider</title>
+  </head>
 <body>
-    <h1>Project Starter</h1>
+    <div class="slider-container">
+        <div class="left-slide">
+            <div style="background-color: #8ca4ac;">
+                <h1>Silent Snowfall</h1>
+                <p>Landscape draped in white</p>
+                
+            </div>
+            <div style="background-color: #1c2c34;">
+                <h1>Mistletoe Magic</h1>
+                <p>Whispers of love</p>
+            </div>
+            <div style="background-color:   #84211d;">
+                <h1>Gingerbread Delight</h1>
+                <p>Sweet cookies, festive sticks unite</p>
+                
+            </div>
+            <div style="background-color: #445444;">
+                <h1>Make a Wish</h1>
+                <p>Wish upon a twinkling star</p>
+            </div>
+        </div>
+        <div class="right-slide">
+           
+            <div style="background-image: url('img/makeWish.jpg')"></div>
+            <div style="background-image: url('img/cookies.jpg')"></div>
+            <div style="background-image: url('https://whimsysoul.com/wp-content/uploads/2021/10/Whimsy-Soul-free-aesthetic-christmas-wallpapers-iphone-background-127.png')"></div>
+            <div style="background-image: url('https://images.unsplash.com/photo-1487052390128-a027de87f6e1?q=80&w=2187&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')"></div>
+        </div>
+        
+
+        <div class="action-buttons">
+            <button class="down-button">
+                <!-- iconos de la biblioteca Font Awesome -->
+                <i class="fas fa-arrow-down"></i>
+            </button>
+            <button class="up-button">
+                <i class="fas fa-arrow-up"></i>
+            </button>
+        </div>
+    </div>
     
-
-
-
-
-
     <script src="script.js"></script>  
 </body>
 </html>
